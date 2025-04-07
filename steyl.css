@@ -1,0 +1,196 @@
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   height: 140vh;
+   font-family: "Plus Jakarta Sans", sans-serif;
+   button {
+      width: 75%;
+      display: flex;
+      background-color: hsl(61, 70%, 52%);
+      border: none;
+      border-radius: 20px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+   }
+   #section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 69vh;
+      width: 95%;
+   }
+   .lahachmi {
+      position: relative;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid hsl(200, 24%, 40%);
+      input {
+         padding-left: 10px;
+      }
+      span {
+         display: flex;
+         align-items: center;
+         position: absolute;
+         background-color: hsl(202, 86%, 94%);
+         top: 0;
+         right: 0;
+         bottom: 0;
+         /* width: 45px; */
+         padding: 8px;
+         border-radius: 6px;
+      }
+
+   }
+
+   .mimon {
+      position: relative;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid hsl(200, 24%, 40%);
+
+      input {
+         padding-left: 30px;
+      }
+
+      span {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: absolute;
+         background-color: hsl(202, 86%, 94%);
+         top: 0;
+         width: 25px;
+         bottom: 0;
+      }
+   }
+   .Calculator {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      input {
+         width: 100%;
+         height: 36px;
+         border-radius: px;
+         border: 0;
+         box-sizing: border-box;
+      }
+      .mrnisi{
+         display: none;
+         position: relative;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid hsl(200, 24%, 40%);
+      input {
+         padding-left: 30px;
+      }
+
+      span {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: absolute;
+         background-color: hsl(202, 86%, 94%);
+         top: 0;
+         width: 25px;
+         bottom: 0;
+      }
+      }
+   }
+
+   .tell {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 26%;
+      width: 90vw;
+
+      .radioing {
+         display: flex;
+         align-items: center;
+         border: 1px solid hsl(200, 24%, 40%);
+         border: radius 5%;
+         color: black;
+         border-radius: 6px;
+         width: 285px;
+         height: 36px;
+
+         label {
+            padding-left: 9px;
+         }
+      }
+   }
+}
+#endfoter{
+   display: none;
+}
+#footer {
+   background-color: rgb(14, 62, 101);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 450px;
+   width: 100%;
+   border-radius: 20px;20px;20px;100px;
+   h1 {
+      text-align: center;
+      color: azure;
+   }
+   p {
+      color: azure;
+      width: 80%;
+   }
+
+}
+/* @media (min-width:720px) {
+   body {
+      display: flex;
+      align-items: center;
+      background-color: rgb(83, 158, 133);
+      width: 285px;
+      height: 36px;
+      
+       #section {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         height: 69vh;
+         width: 50%;
+         .bar{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+         }
+      }
+   }
+} */
+@media (min-width: 720px) {
+   body {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      background-color:hsl(202, 86%, 94%) ;
+      width: 100vw;
+      height: 100vh;
+      #section {
+         width: 30%;
+         display: flex;
+         /* flex-direction: row; */
+         justify-content: space-around;
+         height: 69vh;
+         width: 50%;
+         .bar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+         }
+         
+      }
+      buton
+   }
+}
