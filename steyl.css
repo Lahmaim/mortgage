@@ -5,6 +5,11 @@ body {
    justify-content: space-between;
    height: 140vh;
    font-family: "Plus Jakarta Sans", sans-serif;
+  #erour1,#erour2,#erour3{
+   color: rgb(253, 3, 3);
+   display: none;
+  }
+
    button {
       width: 75%;
       display: flex;
@@ -123,8 +128,28 @@ body {
       }
    }
 }
+#startfooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+   text-align: center;
+  }
+}
 #endfoter{
    display: none;
+   flex-wrap: wrap;
+   justify-content: center;
+ #resolt{
+   color: beige;
+   font-size: 55px;
+ }
+}
+.tell{
+   #radio{
+  
+      accent-color: yellow;
+  }
 }
 #footer {
    background-color: rgb(14, 62, 101);
@@ -134,7 +159,7 @@ body {
    flex-direction: column;
    height: 450px;
    width: 100%;
-   border-radius: 20px;20px;20px;100px;
+   /* border-radius: 20px 20px 20px 100px; */
    h1 {
       text-align: center;
       color: azure;
@@ -145,29 +170,6 @@ body {
    }
 
 }
-/* @media (min-width:720px) {
-   body {
-      display: flex;
-      align-items: center;
-      background-color: rgb(83, 158, 133);
-      width: 285px;
-      height: 36px;
-      
-       #section {
-         display: flex;
-         flex-direction: column;
-         justify-content: space-around;
-         height: 69vh;
-         width: 50%;
-         .bar{
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-         }
-      }
-   }
-} */
 @media (min-width: 720px) {
    body {
       display: flex;
@@ -189,8 +191,12 @@ body {
             align-items: center;
             justify-content: space-around;
          }
-         
+       
+        }
+     
+      #footer{
+         border-radius: 20px 20px 20px 100px;
       }
-      buton
    }
+}
 }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +12,6 @@
   <link rel="stylesheet" href="/steyl.css">
   <title>Frontend Mentor</title>
 </head>
-
 <body>
   <section id="section">
     <div class="bar">
@@ -23,68 +21,69 @@
     <div class="Calculator">
       <label for="">Mortgage Calculator</label>
       <div class="mimon">
-        <input class="inputs" type="text" name="" id="">
+        <input class="inputs" type="number" name="" id="calculator">
         <span>
           £
         </span>
       </div>
-      <!-- <div class="mrnisi">
-        <input class="inputs" type="text" name="" id="">
-        <span>
-          £
-        </span>
-      </div> -->
+      <p id="erour1">This field is required</p>
     </div>
     <div>
       <div class="Calculator">
         <label for="">Mortgage Term</label>
         <div class="lahachmi">
-          <input type="text" name="" id="">
+          <input type="number" name="" id="term">
           <span>
             years
           </span>
-          
         </div>
+        <p id="erour2">This field is required</p>
       </div>
       <div class="Calculator">
         <label for="">Interest Rate</label>
         <div class="lahachmi">
-          <input type="text" name="" id="">
+          <input type="number" name="" id="rate">
           <span>
             %
           </span>
         </div>
+        <p id="erour3">This field is required</p>
         <!-- <input type="button" value="%"> -->
       </div>
     </div>
     <div class="tell">
       <label for="">Mortgage Type</label>
       <div class="radioing">
-        <input type="radio" name="" id="">
-        <label for="">Repaments</label>
+        <!-- <input  type="radio" name="" id=""> -->
+         <input type="radio" name="name"  id="radio">
+         <label for="">Repaments</label>
       </div>
       <div class="radioing">
-        <input type="radio" name="" id="">
-        <label for="">Interest Only</label>
+        <!-- <input type="radio" name="" id=""> -->
+        <input type="radio" name="name"  id="radio">
+        <label for="radio">Interest Only</label>
       </div>
     </div>
-    <button><img src="/assets/images/icon-calculator.svg" alt="">Calculate Repayments</button>
+    <button onclick="calculate()" id="button"><img src="/assets/images/icon-calculator.svg" alt="">Calculate Repayments</button>
   </section>
   <section id="footer">
-    <img src="/assets/images/illustration-empty.svg" alt="">
-    <h1>Results shown here</h1>
-    <p>complete the from and click"calculate
-      repeyments"to see what your monthly repaments would be.
-    </p>
+    <div id="startfooter">
+      <img src="/assets/images/illustration-empty.svg" alt="">
+      <h1 id="Results">Results shown here</h1>
+      <p>complete the from and click"calculate
+        repeyments"to see what your monthly repaments would be.
+      </p>
+    </div>
   <div id="endfoter">
-    <h2>Your reseult</h2>
+    <h2 >Your reseult</h2>
     <p>Your results are shown below based on the information
       you provided. to adjust the results.edit the from and click"calculate Repayments"agin
     </p>
+    <div id="resolt" >
+      
+    </div>
   </div>
-
-
   </section>
+  <script src="/script.js"></script>
 </body>
-
 </html>
